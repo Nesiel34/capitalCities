@@ -38,8 +38,6 @@ export class MapComponent implements OnInit {
         const citiesLayer = new GraphicsLayer();
         map.add(citiesLayer);
 
-        // Sample cities data (replace with your data)
-
         citiesData.features.forEach((city:Feature) => {
           const point = {
             type: 'point',
